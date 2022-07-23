@@ -1,0 +1,14 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://images.pexels.com/photos/3184540/pexels-photo-3184540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  padding: 20px 0;
+  text-align: center;
+}
+
+.banner-container-img {
+  object-fit: cover;
+  width: 35vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
