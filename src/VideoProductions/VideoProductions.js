@@ -1,23 +1,21 @@
 import { useContext } from "react";
 import { dataContext } from "../components/context/DataContext";
 
-import { Link } from "react-router-dom";
+import "./VideoProductions.css";
 
-const imageStyle = {
-  width: "240px",
-  height: "240px",
-};
 const VideoProductions = () => {
-  const { monsteraCategory } = useContext(dataContext);
-
-  return monsteraCategory.map((plants) => {
+  const { videosProductions } = useContext(dataContext);
+  return videosProductions.map((videos) => {
     return (
-      <div className='plantsCard' key={plants.id}>
-        <Link to={`/${plants.id}`}>
-          <img style={imageStyle} src={plants.image} alt='Monstera Picture' />
-          <h5>{plants.name}</h5>
-        </Link>
-      </div>
+      <ul className='video-list-container' key={videos.id}>
+        <li className='video-list-item'>
+          <img src={videos.img} />
+          <div className='video-list-item-info'>
+            <h3>{videos.name} </h3>
+            <h6>{videos.description}</h6>
+          </div>
+        </li>
+      </ul>
     );
   });
 };

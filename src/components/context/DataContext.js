@@ -6,18 +6,18 @@ export const dataContext = createContext();
 const DataProvider = ({ children }) => {
   const [data, setData] = useState([]);
   const [categories, setCategories] = useState([]);
-  const [monsteraCategory, setMonsteraCategory] = useState([]);
+  const [videosProductions, setVideosProductions] = useState([]);
 
   useEffect(() => {
-    axios("https://randomapiplants.herokuapp.com/db").then((res) => setData(res.data.plants));
+    axios("https://venice-films-api.herokuapp.com/db").then((res) => setData(res.data.plants));
   }, []);
 
   useEffect(() => {
-    axios("https://randomapiplants.herokuapp.com/categories").then((res) => setCategories(res.data));
+    axios("https://venice-films-api.herokuapp.com/categories").then((res) => setCategories(res.data));
   }, []);
 
   useEffect(() => {
-    axios("https://randomapiplants.herokuapp.com/categories/1/plants").then((res) => setMonsteraCategory(res.data));
+    axios("https://venice-films-api.herokuapp.com/videos").then((res) => setVideosProductions(res.data));
   }, []);
 
   return (
@@ -25,7 +25,7 @@ const DataProvider = ({ children }) => {
       value={{
         data,
         categories,
-        monsteraCategory,
+        videosProductions,
       }}>
       {children}
     </dataContext.Provider>

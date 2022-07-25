@@ -10,7 +10,9 @@ function Productions() {
         <a className='container-buttons-btn-gradient'>Phothos</a>
         <a className='container-buttons-btn-gradient'>Videos</a>
       </div>
-      <VideoProductions />
+      <div className='video-section-container'>
+        <VideoProductions />
+      </div>
     </>
   );
 }
