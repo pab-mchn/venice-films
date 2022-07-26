@@ -8,15 +8,29 @@
   color: white;
   background-color: #191919;
   margin: 15px;
-  padding: 8px 24px;
+  padding: 10px 26px;
   border-radius: 2px;
   font-weight: bold;
   border: 1px solid #fff;
   transition: background 0.3s ease;
   text-decoration: none;
+  opacity: 0.9;
 }
 
 .container-buttons-btn-gradient:hover {
   border: 1px solid #ea515b;
-  opacity: 0.9;
+  opacity: 1;
+}
+
+.pressed-buttons {
+  color: white;
+  background-color: #191919;
+  margin: 15px;
+  padding: 10px 26px;
+  border-radius: 2px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  border: 1px solid #ea515b;
+  opacity: 1;
 }

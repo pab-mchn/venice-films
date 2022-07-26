@@ -22,10 +22,14 @@ function Productions() {
     <>
       <Banner />
       <div className='container-buttons'>
-        <button onClick={handleVideo} className='container-buttons-btn-gradient'>
+        <button
+          onClick={handleVideo}
+          className={clickedVideoProductions === "true" ? "pressed-buttons" : "container-buttons-btn-gradient"}>
           Videos
         </button>
-        <button onClick={handlePhoto} className='container-buttons-btn-gradient'>
+        <button
+          onClick={handlePhoto}
+          className={clickedPhotoProductions === "true" ? "pressed-buttons" : "container-buttons-btn-gradient"}>
           Phothos
         </button>
       </div>
