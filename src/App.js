@@ -6,12 +6,12 @@ import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <DataProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/productions' element={<Productions />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </DataProvider>
   );
 }

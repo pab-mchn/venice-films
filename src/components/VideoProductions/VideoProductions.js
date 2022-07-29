@@ -41,8 +41,8 @@ const VideoProductions = () => {
                         className='modal__video-style'
                         onLoad={spinner}
                         loading='lazy'
-                        width='800'
-                        height='500'
+                        width='900'
+                        height='600'
                         src={videos.videoUrl}
                         title='YouTube video player'
                         frameBorder='0'
