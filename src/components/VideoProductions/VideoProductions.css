@@ -88,12 +88,11 @@
   border-radius: 50%;
   cursor: pointer;
   position: relative;
-  bottom: 25px;
+  bottom: 15px;
   float: right;
   width: 32px;
   height: 32px;
   padding: 0;
-  margin: 10px;
 }
 
 .modal__video-align {
@@ -147,7 +146,10 @@
   .modal__video-align {
     bottom: 0px;
   }
-  .modal__video-style {
-    height: auto;
+
+  .modal__close {
+    float: none;
+    top: 150px;
+    left: 160px;
   }
 }
