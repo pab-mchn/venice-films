@@ -34,9 +34,9 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
   width: 300px;
   color: #fff;
-  padding: 10px;
   content: initial;
   text-align: center;
+  height: 255px;
 }
 
 .video-list-item:hover .video-list-item-info {
