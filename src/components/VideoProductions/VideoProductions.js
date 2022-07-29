@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { dataContext } from "../components/context/DataContext";
+import { dataContext } from "../context/DataContext";
 import { IoCloseOutline } from "react-icons/io5";
 import { BiLoaderAlt } from "react-icons/bi";
 

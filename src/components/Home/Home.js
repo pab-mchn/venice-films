@@ -1,6 +1,5 @@
 import "./Home.css";
 import veniceLogoPink from "../../img/veniceLogoPink.png";
-import VideoProductionsModal from "../VideoProductionsModal/VideoProductionsModal";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -14,7 +13,6 @@ function Home() {
           Start Now
         </Link>
       </div>
-      <VideoProductionsModal />
     </>
   );
 }

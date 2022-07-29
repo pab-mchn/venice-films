@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Banner from "../Banner/Banner";
-import VideoProductions from "../../VideoProductions/VideoProductions";
+import VideoProductions from "../VideoProductions/VideoProductions";
 import PhotoProductions from "../PhotoProductions/PhotoProductions";
 import "./Productions.css";
 
