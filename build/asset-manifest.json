@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/venice-films/static/css/main.972f941b.css",
+    "main.js": "/venice-films/static/js/main.31ec85ef.js",
+    "static/js/787.172cab4e.chunk.js": "/venice-films/static/js/787.172cab4e.chunk.js",
+    "static/media/veniceLogoPink.png": "/venice-films/static/media/veniceLogoPink.bdd729fce939b395596c.png",
+    "index.html": "/venice-films/index.html",
+    "main.972f941b.css.map": "/venice-films/static/css/main.972f941b.css.map",
+    "main.31ec85ef.js.map": "/venice-films/static/js/main.31ec85ef.js.map",
+    "787.172cab4e.chunk.js.map": "/venice-films/static/js/787.172cab4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.972f941b.css",
+    "static/js/main.31ec85ef.js"
+  ]
+}
