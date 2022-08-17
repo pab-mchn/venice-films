@@ -34,13 +34,19 @@ function Productions() {
         </button>
       </div>
       {clickedVideoProductions === "true" ? (
-        <div className='video-section-container'>
+        <div className='productions-section-container'>
           <VideoProductions />
         </div>
       ) : (
         ""
       )}
-      {clickedPhotoProductions === "true" ? <PhotoProductions /> : ""}
+      {clickedPhotoProductions === "true" ? (
+        <div className='productions-section-container'>
+          <PhotoProductions />
+        </div>
+      ) : (
+        ""
+      )}
     </>
   );
 }

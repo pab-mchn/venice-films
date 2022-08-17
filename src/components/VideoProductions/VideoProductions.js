@@ -3,7 +3,7 @@ import { dataContext } from "../context/DataContext";
 import { IoCloseOutline } from "react-icons/io5";
 import { BiLoaderAlt } from "react-icons/bi";
 
-import "./VideoProductions.css";
+import "../Productions/Productions.css";
 
 const VideoProductions = () => {
   const { videosProductions } = useContext(dataContext);
@@ -20,10 +20,10 @@ const VideoProductions = () => {
 
   return videosProductions.map((videos) => {
     return (
-      <ul className='video-list-container' key={videos.id}>
-        <li className='video-list-item'>
+      <ul className='productions-list-container' key={videos.id}>
+        <li className='productions-list-item'>
           <img src={videos.img} />
-          <div className='video-list-item-info' onClick={openModal}>
+          <div className='productions-list-item-info' onClick={openModal}>
             <h3>{videos.name} </h3>
             <h6>{videos.description}</h6>
             {modal ? (
