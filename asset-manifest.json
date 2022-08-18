@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/venice-films/static/css/main.c1da43cc.css",
-    "main.js": "/venice-films/static/js/main.af7912c6.js",
+    "main.css": "/venice-films/static/css/main.a62f6aed.css",
+    "main.js": "/venice-films/static/js/main.b29486d1.js",
     "static/js/787.172cab4e.chunk.js": "/venice-films/static/js/787.172cab4e.chunk.js",
+    "static/media/veniceLogoWhite.png": "/venice-films/static/media/veniceLogoWhite.69fac507588e8d7bd277.png",
     "static/media/veniceLogoPink.png": "/venice-films/static/media/veniceLogoPink.bdd729fce939b395596c.png",
     "index.html": "/venice-films/index.html",
-    "main.c1da43cc.css.map": "/venice-films/static/css/main.c1da43cc.css.map",
-    "main.af7912c6.js.map": "/venice-films/static/js/main.af7912c6.js.map",
+    "main.a62f6aed.css.map": "/venice-films/static/css/main.a62f6aed.css.map",
+    "main.b29486d1.js.map": "/venice-films/static/js/main.b29486d1.js.map",
     "787.172cab4e.chunk.js.map": "/venice-films/static/js/787.172cab4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1da43cc.css",
-    "static/js/main.af7912c6.js"
+    "static/css/main.a62f6aed.css",
+    "static/js/main.b29486d1.js"
   ]
 }
