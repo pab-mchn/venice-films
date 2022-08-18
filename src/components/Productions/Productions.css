@@ -15,6 +15,7 @@
   transition: background 0.3s ease;
   text-decoration: none;
   opacity: 0.9;
+  font-family: "Roboto", sans-serif;
 }
 
 .container-buttons-btn-gradient:hover {
@@ -136,12 +137,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.modal__spinner {
-  animation: spin 2s linear infinite;
-  font-size: 40px;
-  color: #1b6aae;
 }
 
 /*video productions special styles*/

@@ -1,11 +1,12 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
 .home {
   background-size: cover;
   background-position: center;
   background-image: url("https://images.pexels.com/photos/3184540/pexels-photo-3184540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   height: 100vh;
   text-align: center;
-}
-.container {
 }
 .container-img {
   object-fit: cover;
@@ -36,6 +37,7 @@
   opacity: 0.8;
   transition: background 0.3s ease;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
 
 .btn-gradient:hover {

@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { dataContext } from "../context/DataContext";
 import { IoCloseOutline } from "react-icons/io5";
-import { BiLoaderAlt } from "react-icons/bi";
+import Loader from "../Loader/Loader";
 
 import "../Productions/Productions.css";
 
@@ -17,6 +17,8 @@ const VideoProductions = () => {
   const spinner = () => {
     setVideoLoading(!videoLoading);
   };
+
+  if (!videosProductions.length) return <Loader />;
 
   return videosProductions.map((videos) => {
     return (
@@ -34,7 +36,7 @@ const VideoProductions = () => {
                     <div className='modal__video-align'>
                       {videoLoading ? (
                         <div className='modal__spinner'>
-                          <BiLoaderAlt className='modal__spinner-style' fadeIn='none' />
+                          <Loader />
                         </div>
                       ) : null}
                       <iframe

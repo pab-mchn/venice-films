@@ -1,17 +1,19 @@
 import { useContext, useState } from "react";
 import { dataContext } from "../context/DataContext";
 import { IoCloseOutline } from "react-icons/io5";
-import { BiLoaderAlt } from "react-icons/bi";
+import Loader from "../Loader/Loader";
 
 import "../Productions/Productions.css";
 
 const PhotoProductions = () => {
-  const { photoProductions, photoProductionsResults } = useContext(dataContext);
+  const { photoProductions } = useContext(dataContext);
   const [modal, setModal] = useState(false);
 
   const openModal = () => {
     setModal(!modal);
   };
+
+  if (!photoProductions.length) return <Loader />;
 
   return photoProductions.map((photos) => {
     return (
